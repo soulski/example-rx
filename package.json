@@ -1,0 +1,25 @@
+{
+  "name": "example-rx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build; npm run serve",
+    "test": "mocha",
+    "serve": "node dist/index.js",
+    "build": "npm run build-ts",
+    "watch": "npm run watch-ts",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/isomorphic-fetch": "0.0.34",
+    "@types/node": "^7.0.31",
+    "isomorphic-fetch": "^2.2.1",
+    "rxjs": "^5.4.0",
+    "typescript": "^2.3.4"
+  }
+}
